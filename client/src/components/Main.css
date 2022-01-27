@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-container{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.product-container input{
+    text-align: center;
+    width: 60%;
+    max-width: 600px;
+    /* height: 2rem; */
+    font-size: 1.15rem;
+    padding: 5px;
+    letter-spacing: 1.2px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+
+.product-container button{
+    margin-left: 1rem;
+    padding: 4px 1rem;
+    border-radius: 4px;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    font-family: serif;
+    font-size: 1.1rem;
+    border-color: rgb(63, 63, 202);
+}
+.product-container button:hover{
+    background-color: #000;
+    color: #fff;
+}
